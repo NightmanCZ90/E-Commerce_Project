@@ -1,0 +1,24 @@
+{
+  "name": "E-Commerce_Project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NightmanCZ90/E-Commerce_Project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NightmanCZ90/E-Commerce_Project/issues"
+  },
+  "homepage": "https://github.com/NightmanCZ90/E-Commerce_Project#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4"
+  }
+}
