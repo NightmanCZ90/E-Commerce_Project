@@ -6,5 +6,10 @@
     "email": "test2@test.com",
     "password": "aaa",
     "id": "550266ce"
+  },
+  {
+    "email": "tomas@test.com",
+    "password": "52eaef4000f69ced145725f407513a35a6732c068baae5c36aa7a913cd74b02a20c1bacef631423721be472d622c6677d26fd1f6107c3b641968db562d7206d0.632113c4cf1e95fc",
+    "id": "85212c69"
   }
 ]
