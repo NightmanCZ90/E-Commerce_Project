@@ -5,6 +5,7 @@ const authRouter = require('./routes/admin/auth')
 
 const app = express();
 
+app.use(express.static('public'));
 app.use(bodyParser.urlencoded({ extended: true })); //all app will be automaticaly bodyparsed for us, we do not have to put middleware to every app.get / app.post
 app.use(cookieSession({
   keys: ['aosdv9823nj9']
