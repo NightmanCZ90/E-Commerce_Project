@@ -19,13 +19,17 @@ router.get('/admin/products/new', (req, res) => {
 
 router.post(
   '/admin/products/new', 
+  upload.single('image'), // a middleware
   [
     requireTitle, 
     requirePrice
   ],
-  upload.single('image'),
   async (req, res) => {
     const errors = validationResult(req);
+
+    if (!errors.isEmpty()) {
+      return res.send(productsNewTemplate({ errors }));
+    }
 
     const image = req.file.buffer.toString('base64');
     const { title, price } = req.body;
